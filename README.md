@@ -1,2 +1,1 @@
-# weather-report
-Weather Report Application
+# Weather Report Application
