@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="./Assets/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Weather Tracker</h1>
+      </header>
+      <main>
+        <section class="search-section">
+          <form id="citySearchForm">
+            <input
+              type="text"
+              id="cityNameInput"
+              placeholder="Enter City"
+              required
+            />
+            <button type="submit">Search Weather</button>
+          </form>
+        </section>
+        <section id="weatherDisplay" class="weather-section"></section>
+        <section id="forecastDisplay" class="forecast-section"></section>
+        <section class="history-section">
+          <h2>Recent Searches</h2>
+          <ul id="searchHistoryList"></ul>
+        </section>
+      </main>
+    </div>
+
+    <div id="alertModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p id="alertMessage"></p>
+      </div>
+    </div>
+
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>
