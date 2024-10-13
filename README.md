@@ -2,6 +2,11 @@
 
 This is a simple weather tracking application that allows users to search for current weather conditions and a 5-day weather forecast for any city. It also keeps track of your recent searches using local storage.
 
+
+https://github.com/user-attachments/assets/ae8cfbb8-86b7-4726-ba18-a242fc96bf84
+
+For the application website, please visit this [URL](https://rennancruz.github.io/weather-report/)
+
 ## Features
 
 - **Current Weather**: Displays the current temperature, humidity, and wind speed for the searched city.
